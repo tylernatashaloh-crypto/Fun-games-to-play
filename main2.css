@@ -1,0 +1,49 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(236, 36, 36), rgb(204, 0, 255));
+}
+
+.label-1 {
+    background-color: deeppink;
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    color: bisque;
+    padding: 10px;
+    opacity: 0;
+    animation: fade-in 2s ease-in forwards;
+    height: 60px;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        font-size: 20px;
+    }
+}
+
+.label-2 {
+    font-size: 40px;
+    color: black;
+    padding: 30px;
+    font-family: fantasy;
+    height: 50px;
+    text-align: center;
+    animation: bg-anim 2s infinite;
+}
+
+@keyframes bg-anim {
+    0% {background-color: thistle;}
+    20% {background-color: aquamarine;}
+    40% {background-color: blueviolet;}
+    60% {background-color: aqua;}
+    80% {background-color: chartreuse;}
+    100% {background-color: hotpink;}
+}

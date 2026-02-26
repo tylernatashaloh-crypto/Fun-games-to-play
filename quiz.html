@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fun Quiz</title>
+    <link rel="stylesheet" href="main3.css">
+</head>
+<body>
+    <div class="title">
+        Games Quiz
+    </div>
+
+    <div class="container">
+        <!-- progress bar-->
+         <div class="progress-bar-bg" id="progress-bar-bg">
+            <div class="fill" id="fill"></div>
+         </div>
+
+        <!-- question label-->
+         <div class="question" id="question">
+            Questions will be dispayed after you press start!:D
+         </div>
+
+        <!-- option buttons-->
+         <div class="option-box" id="option-box"></div>
+
+        <!-- score label-->
+         <div class="score-label" id="score-label"> you scored 0 points</div>
+
+         <!--feedback label-->
+         <div class="feedback-label" id="feedback-label"> Good luck!</div>
+
+        <!-- start button-->
+         <button class="start-btn" id="start-btn"> start! </button>
+    </div>
+
+    <div class="timer">
+       <span id="timer-text"> 20 </span>
+    </div>
+
+    <!-- bgm dropdown -->
+    <select class="bgm" id="bgm">
+        <option value="Lobby Music (Original Soundtrack).mp3"> kahoot lobby music </option>
+        <option value="67 On A Merry Rizzmas Meme Lyrics.mp3"> 67 </option>
+        <option value="ATLXS - PASSO BEM SOLTO.mp3"> PASSO BEM SOLTO </option>
+        <option value="BAD HAPPENING FUNK.mp3"> Dark Red</option>
+        <option value="CONFESS YOUR LOVE FUNK (Best Version).mp3"> Confess Your Love-Funk </option>
+        <option value="Blooket - Lobby (OST).mp3"> blooket lobby music </option>
+        <option value="Montagem Miau.mp3"> Montagem Miau </option>
+    </select>
+
+    <button class="music" id="music"> 🔈Music On🔈 </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
